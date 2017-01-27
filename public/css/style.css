@@ -9,6 +9,7 @@ h1 {
 }
 
 body{
+	height: 100%;
 }
 
 #topbar{
@@ -67,7 +68,7 @@ p{
 }
 
 .padding3{
-	margin-top: 50px;
+	margin-top: 20px;
 }
 
 h3{
