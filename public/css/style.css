@@ -15,11 +15,15 @@ h1 {
 
 .padding{
 		margin-top: 30px;
+}
 
+.padding2{
+	margin-top: 120px;
 }
 
 .typed-cursor{
     opacity: 1;
+    font-weight: 100;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
@@ -38,4 +42,17 @@ h1 {
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
+}
+
+a{
+	color: black;
+}
+
+i{
+	margin-right: 50px;
+}
+
+p{
+	font-family: Roboto, thin;
+	font-size: 60px;
 }
