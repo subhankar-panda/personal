@@ -1,3 +1,41 @@
 h1 {
 	font-family: Roboto, thin;
+	font-size: 60px;
+}
+
+#topbar{
+	height: 50px;
+}
+
+.dynamictext{
+	font-size: 30px;
+		margin-top: 30px;
+
+}
+
+.padding{
+		margin-top: 30px;
+
+}
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
 }

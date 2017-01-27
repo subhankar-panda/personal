@@ -14,7 +14,7 @@ app.use('/', index);
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(function(req, res, next){
-  res.send(404, 'page not found');
+  res.status(404).send('page not found');
 });
 
 // Create HTTP server with your app
