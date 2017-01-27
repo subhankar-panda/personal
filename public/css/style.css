@@ -1,6 +1,14 @@
+html, body{
+	background-color : #F0F0F0;
+	color: #202020;
+}
+
 h1 {
 	font-family: Roboto, thin;
 	font-size: 60px;
+}
+
+body{
 }
 
 #topbar{
@@ -9,12 +17,12 @@ h1 {
 
 .dynamictext{
 	font-size: 20px;
-		margin-top: 15px;
+		margin-top: 10px;
 
 }
 
 .padding{
-		margin-top: 30px;
+		margin-top: 20px;
 }
 
 .padding2{
@@ -22,13 +30,13 @@ h1 {
 }
 
 .typed-cursor{
-    opacity: 1;
+    opacity: 0;
     font-weight: 100;
     -webkit-animation: blink 0.7s infinite;
     -moz-animation: blink 0.7s infinite;
     animation: blink 0.7s infinite;
 }
-@keyframes blink{
+/*@keyframes blink{
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
@@ -42,7 +50,7 @@ h1 {
     0% { opacity:1; }
     50% { opacity:0; }
     100% { opacity:1; }
-}
+}*/
 
 a{
 	color: black;
@@ -58,7 +66,7 @@ p{
 }
 
 .padding3{
-	margin-top: 80px;
+	margin-top: 30px;
 }
 
 h3{
@@ -72,5 +80,5 @@ a:hover{
 }
 
 .left-padding{
-	margin-left: 100px;
+	margin-left: 125px;
 }

@@ -9,7 +9,6 @@ html
 		link(href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel="stylesheet", integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN", crossorigin="anonymous")
 		script.
 			$(function(){
-				//for(var i = 1; i < 6; i++){
 				var loop = function(i){
 					var str = "." + "dynamictext" + i;
 					var array = ["undergraduate freshman @ uc san diego", "mathematics-computer science major", "cognitive science minor","web development enthusiast", "looking for a summer '17 software engineering internship"];
@@ -28,29 +27,20 @@ html
 							}
 						}
 					});
-
-					/*
-					else{
-						
-					}*/
-				//}
 				}
 				loop(1);
 			});
 
 		title subhankar.
 	body
-		section(id="topbar")
-			div.container-fluid
-				div.row
 		section(id="header")
 			div.container-fluid
-				div(class="row", style="margin-bottom: 50px;")
+				div(class="row", style="margin-bottom: 30px; margin-top: 30px;")
 					h1.text-center subhankar panda.
-				hr(style="width:800px;")
+				hr(style="width:1100px; border-color: black;")
 				div.left-padding
 					div.row
-						div.padding
+						div.padding3
 							span.dynamictext1.dynamictext
 					div.row
 						div.padding
@@ -64,23 +54,6 @@ html
 					div.row
 						div.padding
 							span.dynamictext5.dynamictext
-				div.row.padding3
-					div.text-center
-						h3 links :
-				div.row.padding
-					div.col-md-5.col-md-offset-4.text-center
-						a(href="https://github.com/subhankar-panda", target="_blank")
-							span.fa-5x
-								i.fa.fa-github
-						a(href="https://linkedin.com/subhankar-panda", target="_blank")
-							span.fa-5x
-								i.fa.fa-linkedin-square
-						a(href="/resume", target="_blank", method="GET")
-							span.fa-5x
-								i.fa.fa-paperclip
-						a(href="/code", method="GET")
-							span.fa-5x
-								i.fa.fa-code
 
 
 						
