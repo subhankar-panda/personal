@@ -21,15 +21,18 @@ html
 						startDelay: 120,
 						backDelay: 300,
 						contentType: 'html',
-						loopCount : 1
+						loopCount : 1,
+						onStringTyped: function(){
+							if(++i < 6){
+								loop(i);
+							}
+						}
 					});
 
-					if(++i < 6){
-						loop(i);
-					}
+					/*
 					else{
-						done();
-					}
+						
+					}*/
 				//}
 				}
 				loop(1);
