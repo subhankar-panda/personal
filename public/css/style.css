@@ -8,8 +8,8 @@ h1 {
 }
 
 .dynamictext{
-	font-size: 30px;
-		margin-top: 30px;
+	font-size: 20px;
+		margin-top: 15px;
 
 }
 
@@ -64,4 +64,13 @@ p{
 h3{
 	font-family: Roboto, thin;
 	font-size: 30px;
+}
+
+a:hover{
+	color: #A9A9A9;
+	cursor : pointer;
+}
+
+.left-padding{
+	margin-left: 100px;
 }
