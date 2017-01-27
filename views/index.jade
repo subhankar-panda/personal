@@ -2,12 +2,13 @@ doctype html
 html
 	head
 		link(rel="stylesheet", href="/css/bootstrap.css")
-		link(href="https://fonts.googleapis.com/css?family=Roboto", rel="stylesheet")
+		link(href="https://fonts.googleapis.com/css?family=Roboto|Abril+Fatface|Oswald", rel="stylesheet")
 		link(rel="stylesheet", href="/css/style.css")
 		script(rel="text/javascript", src="/js/jquery-3.1.1.min.js")
 		script(rel="text/javascript", src="/js/typed.js")
 		link(href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel="stylesheet", integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN", crossorigin="anonymous")
 		script.
+			//crazy hacky sync loop 
 			$(function(){
 				var loop = function(i){
 					var str = "." + "dynamictext" + i;
@@ -54,6 +55,24 @@ html
 					div.row
 						div.padding
 							span.dynamictext5.dynamictext
+
+				div.links
+					div.row
+						h3 links:
+						ul
+							li
+								a(href="https://github.com/subhankar-panda" target="_blank" class="link-list") github
+
+							li
+								a(href="https://linkedin.com/subhankar-panda" target="_blank" class="link-list") linkedin
+
+							li
+								a(href="/resume" target="_blank" class="link-list") resume
+
+							li
+								a(href="mailto:s1panda@ucsd.edu" class="link-list") email
+
+
 
 
 						

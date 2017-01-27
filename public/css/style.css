@@ -17,7 +17,8 @@ body{
 
 .dynamictext{
 	font-size: 20px;
-		margin-top: 10px;
+	margin-top: 10px;
+	font-family: Roboto, thin;
 
 }
 
@@ -81,4 +82,14 @@ a:hover{
 
 .left-padding{
 	margin-left: 125px;
+}
+
+.links{
+	margin-left: 125px;
+	position: fixed;
+	bottom: 5%;
+}
+
+.link-list{
+	font-size: 20px;
 }
