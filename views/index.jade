@@ -16,7 +16,8 @@ html
 					backSpeed: -10,
 					loop: true,
 					cursorChar: "|",
-					startDelay: 250,
+					startDelay: 120,
+					backDelay: 80,
 					contentType: 'html',
 					loopCount : false
 				});
@@ -35,8 +36,11 @@ html
 				div.row
 					div.text-center.padding
 						span.dynamictext
-				div.row
-					div.padding2.col-md-5.col-md-offset-4.text-center
+				div.row.padding3
+					div.text-center
+						h3 links :
+				div.row.padding
+					div.col-md-5.col-md-offset-4.text-center
 						a(href="https://github.com/subhankar-panda", target="_blank")
 							span.fa-5x
 								i.fa.fa-github
