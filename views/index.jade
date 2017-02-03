@@ -12,7 +12,8 @@ html
 			$(function(){
 				var loop = function(i){
 					var str = "." + "dynamictext" + i;
-					var array = ["undergraduate freshman @ uc san diego", "mathematics-computer science major", "cognitive science minor","web development enthusiast", "looking for a summer '17 software engineering internship"];
+					var array = ["undergraduate freshman @ <a href=\"http://ucsd.edu\" target=\"_blank\"> uc san diego</a>", "mathematics-computer science major", "cognitive science minor",
+					"web development enthusiast", "looking for a summer '17 software engineering internship"];
 					console.log("yee")
 					$(str).typed({
 						strings: [array[i-1]],
@@ -37,7 +38,8 @@ html
 		section(id="header")
 			div.container-fluid
 				div(class="row", style="margin-bottom: 30px; margin-top: 30px;")
-					h1.left-padding subhankar panda.
+					a(href="/")
+						h1.left-padding subhankar panda.
 				//- hr(style="width:800px; border-color: black;")
 				div.left-padding
 					div.row
@@ -61,7 +63,7 @@ html
 						h3 links:
 						ul
 							li 
-								a(href="/code" target="_blank" class="link-list") projects 
+								a(href="/code" class="link-list") projects 
 
 							li
 								a(href="https://github.com/subhankar-panda" target="_blank" class="link-list") github

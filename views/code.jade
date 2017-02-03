@@ -2,33 +2,30 @@ doctype html
 html
 	head
 		link(rel="stylesheet", href="/css/bootstrap.css")
-		link(href="https://fonts.googleapis.com/css?family=Roboto", rel="stylesheet")
+		link(href="https://fonts.googleapis.com/css?family=Roboto|Abril+Fatface|Oswald", rel="stylesheet")
 		link(rel="stylesheet", href="/css/style.css")
 		script(rel="text/javascript", src="/js/jquery-3.1.1.min.js")
 		script(rel="text/javascript", src="/js/typed.js")
 		link(href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css", rel="stylesheet", integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN", crossorigin="anonymous")
-		script.
-			$(function(){
-				$(".dynamictext").typed({
-					strings: ["undergraduate freshman @ uc san diego", "mathematics-computer science major", "cognitive science minor","web development enthusiast", "looking for a summer '17 software engineering internship",
-					""],
-					typeSpeed: 5,
-					backSpeed: -10,
-					loop: true,
-					cursorChar: "|",
-					startDelay: 500,
-					contentType: 'html',
-					loopCount : false
-				});
-			});
 
 		title subhankar.
 	body
-		div.contianer-fluid
-			div.row
-				div.text-center.padding
-					span.fa-5x
-					
-			div.row.padding2
-				p.text-center work in progress ᕙ(⇀‸↼‶)ᕗ
-
+		section(id="name")
+			div.container-fluid
+				div(class="row", style="margin-bottom: 30px; margin-top: 30px;")
+					h1.left-padding i like making stuff.
+			div.container-fluid
+				div(class="row")
+					h2.left-padding #[strong SpotifyCompare]  #[span(class="inline-span") | November 2016 - December 2016]
+				div(class="row")
+					span(class="desc left-padding-2") adjshdkashdaskjdhaskdaskdjh
+			div(class="container-fluid spacer")
+				div(class="row")
+					h2.left-padding #[strong MLH Mapper]  #[span(class="inline-span") | December 2016 - January 2017]
+				div(class="row")
+					span(class="desc left-padding-2") kfhksjhfksjdhfkjsdfhjksfh
+			div(class="container-fluid spacer")
+				div(class="row")
+					h2.left-padding #[strong UCSD AUVSI Team]  #[span(class="inline-span") | January 2017 - Current]
+				div(class="row")
+					span(class="desc left-padding-2") askjskjfhdskfhskdfhskjdfnk
