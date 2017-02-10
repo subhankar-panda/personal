@@ -5,6 +5,7 @@ var path = require('path');
 
 var index = require("./routes/index");
 var code = require("./routes/code");
+var p5js = require("./routes/p5js");
 // Set the view engine
 app.set('view engine', 'jade');
 
@@ -12,10 +13,10 @@ app.set('view engine', 'jade');
 app.set('views', __dirname + '/views');
 
 app.use('/', index);
+app.use('/p5js', p5js)
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/resume', function(req, res){
-	console.log(__dirname);
 	res.sendFile(__dirname + "/public/assets/Subhankar_Panda_Resume.pdf");
 });
 
