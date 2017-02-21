@@ -66,7 +66,7 @@ function polygon(x, y, radius, npoints, color) {
 }
 
 function mouseClicked(){
-  if(count > 3){
-    count--;
+  if(count < 6){
+    count++;
   }
 }

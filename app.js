@@ -13,7 +13,6 @@ app.set('view engine', 'jade');
 app.set('views', __dirname + '/views');
 
 app.use('/', index);
-app.use('/p5js', p5js)
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.get('/resume', function(req, res){
@@ -21,7 +20,7 @@ app.get('/resume', function(req, res){
 });
 
 app.use('/code', code)
-
+app.use('/p5js', p5js)
 app.use(function(req, res, next){
   res.status(404).send('page not found');
 });
